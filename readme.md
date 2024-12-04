@@ -50,9 +50,9 @@ pip install -r requirements.txt
 ```
 
 ### Dataset
-Download and prepare the MNIST dataset:
+Download using getdataset.py python file and prepare the MNIST dataset:
 1. Convert MNIST into `.npy` format for easy loading (included in `data/`).
-2. Place the files (`train_images.npy`, `train_labels.npy`, etc.) in the `data/` directory.
+2. It will place the files (`train_images.npy`, `train_labels.npy`, etc.) in the `data/` directory.
 
 ---
 
@@ -77,7 +77,7 @@ Modify parameters such as learning rate, number of epochs, or architecture in `t
 | Test Accuracy      | 97%         |
 
 Sample predictions:
-![Predictions Visualization](path_to_image.png)
+<!-- ![Predictions Visualization](*.png) -->
 
 ---
 
