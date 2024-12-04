@@ -13,7 +13,6 @@ This project implements a fully functional neural network from scratch without u
 5. [Results](#results)
 6. [Future Improvements](#future-improvements)
 7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
@@ -91,11 +90,5 @@ Sample predictions:
 ## **Contributing**
 
 Contributions are welcome! If you have ideas for improvement, please fork the repository and submit a pull request.
-
----
-
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
