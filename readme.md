@@ -76,7 +76,7 @@ Modify parameters such as learning rate, number of epochs, or architecture in `t
 | Test Accuracy      | 97%         |
 
 Sample predictions:
-<!-- ![Predictions Visualization](*.png) -->
+![Predictions Visualization](results/predictions.png)
 
 ---
 
