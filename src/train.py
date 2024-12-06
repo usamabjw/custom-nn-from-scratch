@@ -15,7 +15,7 @@ def load_data():
 if __name__ == "__main__":
     X_train, Y_train, X_test, Y_test = load_data()
     nn = NeuralNetwork(layers=[784, 128, 64, 10])
-    nn.fit(X_train, Y_train, epochs=100, learning_rate=0.01)
+    nn.fit(X_train, Y_train, epochs=100, learning_rate=0.5)
     Y_pred = nn.predict(X_test)
     print("Test Accuracy:", np.mean(Y_pred == np.argmax(Y_test, axis=0)))
     print("Prediction Visualization")
